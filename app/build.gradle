@@ -17,6 +17,7 @@ android {
 
     buildTypes {
         release {
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -35,5 +36,5 @@ dependencies {
     implementation project(path: ':utils')
 
     implementation 'com.github.zhisuoyu:framework:1.0.1'
-    implementation 'com.github.zhisuoyu:wrapper:1.0.0'
+    implementation 'com.github.zhisuoyu:wrapper:1.0.1'
 }

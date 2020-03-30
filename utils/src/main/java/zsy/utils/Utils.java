@@ -6,7 +6,7 @@ import android.content.Context;
 public class Utils {
 
 
-    private static Context context;
+    private  Context context;
 
     public static void init(Context context) {
         if (!(context instanceof Application)) {

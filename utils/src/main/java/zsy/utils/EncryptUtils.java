@@ -9,7 +9,6 @@ import java.security.NoSuchAlgorithmException;
 public class EncryptUtils {
     public static void main(String[] args) {
         System.out.println(MD5Hex("maozs", false));
-        System.out.println(MD5Hex(null));
     }
 
     private static byte[] MD5(String input) throws NoSuchAlgorithmException {
